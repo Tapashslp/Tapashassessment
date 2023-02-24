@@ -1,0 +1,72 @@
+.button {
+  background-color: rgb(243, 145, 33);
+  color: white;
+ border-radius: 25px;
+ height: 50px;
+ width: 200px;
+ margin-top: 20px;
+}
+
+body{
+  background-color:rgb(45, 215, 238);
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  background-color:rgb(45, 215, 238);
+  margin: auto;
+  margin-bottom: 20px;
+}
+.container h1{
+  color :white;
+  text-align: 20px;
+}
+
+.person{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-bottom: 20px;  
+  
+} border-radius: 15px 25px 15px 0px;  
+
+
+.person-number{
+  flex-flow: row;
+  background-color: rgb(117, 224, 117);
+  color : white;
+  padding : 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.person-data{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: left;
+}
+
+.name {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(180, 176, 176);
+  color: white;
+  text-align: center;
+}
+
+.location {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+}
+.current-text{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
